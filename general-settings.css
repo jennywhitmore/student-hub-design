@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:wght@400;600&display=swap");
+
+:root {
+  --main-color: #8849cf;
+  --background-color: white;
+  --secondary-background-color: whitesmoke;
+  --text-color: #6a1cc3;
+  --light-text-color: rgba(75, 20, 138, 0.38);
+  --secondary-text-color: rgba(0, 0, 0, 0.6);
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  background-color: var(--secondary-background-color);
+}
+.page-container {
+  background-color: var(--background-color);
+  max-width: 600px;
+  text-align: justify;
+  margin: 3rem;
+  padding: 3rem;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.33px;
+  color: white;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18.32px;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 0.4rem;
+  margin-bottom: 1.3rem;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 13.13px;
+  color: var(--secondary-text-color);
+}
+
+h4 {
+  margin-top: 3rem;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.85px;
+  color: var(--secondary-text-color);
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16.29px;
+  color: var(--text-color);
+}
+
+a {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12.22px;
+  color: var(--text-color);
+}

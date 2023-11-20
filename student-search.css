@@ -1,0 +1,119 @@
+/********************************/
+/* SEARCH BAR */
+/********************************/
+
+.input-section {
+  /*is also parents the icon within*/
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+#search-field {
+  /*defines look of the search field*/
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid var(--main-color);
+  width: 100%;
+  box-sizing: border-box;
+  height: 36px;
+  outline: none;
+  border-radius: 2px;
+  color: var(--light-text-color);
+}
+
+.search-input::placeholder {
+  /*sets color of typed input*/
+  color: var(--light-text-color);
+}
+
+.icon-container {
+  /* puts the search-icon into the box*/
+  position: absolute;
+  top: 0;
+  right: 5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+
+.search-icon {
+  /*puts white box behind search icon so that the input text won't be visible ontop of the icon*/
+  background-color: white;
+  padding: 5px;
+}
+
+/********************************/
+/* DROPDOWNS */
+/********************************/
+.dropdown-section {
+  /*aligns dropdown boxes to be aligned properly underneth the search box*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-container-c {
+  /*sets margin between search and dropdown containers*/
+  position: relative; /*makes the dropdown box parent to the purple chevron box*/
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.dropdown-container-t {
+  /*sets margin between search and dropdown containers*/
+  position: relative; /*makes the dropdown box parent to the purple chevron box*/
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+#class-selection {
+  /*defines look of the dropdown field classes*/
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid var(--main-color);
+  width: 100%;
+  box-sizing: border-box;
+  height: 36px;
+  outline: none;
+  border-radius: 2px;
+  color: var(--text-color);
+  background-color: transparent;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  width: 200px;
+}
+
+#time-selection {
+  /*defines look of the dropdown field time*/
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid var(--main-color);
+  width: 100%;
+  box-sizing: border-box;
+  height: 36px;
+  outline: none;
+  border-radius: 2px;
+  color: var(--text-color);
+  background-color: transparent;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  width: 100px;
+}
+
+.dropdown-arrow {
+  background-color: var(--main-color);
+  position: absolute; /*makes the purple background chevron child of the dropdown box*/
+  padding-left: 10px;
+  padding-right: 10px;
+  top: 0;
+  right: 1px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
